@@ -1,0 +1,126 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1507692049790-de58290a4334?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  height: 80px;
+  background: #2d3e50 font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul {
+  float: right;
+
+  margin-right: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+  font-family: 'Roboto', sans-serif;
+  ;
+
+}
+
+nav ul li a {
+  position: relative;
+  color: white;
+  font-size: 18px;
+  padding: 5px 0;
+  text-transform: uppercase;
+  font-family: font-family: 'Roboto', sans-serif;
+
+}
+
+nav ul li a::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: rgb(118, 187, 90);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+ul {
+  color: rgb(118, 187, 90);
+  font-family: 'Mitr', sans-serif;
+  text-align: left;
+  font-size: 20px;
+
+}
+
+hr {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+
+h2 {
+  color: rgb(118, 187, 90);
+  font-family: 'Mitr', sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+h3 {
+  color: rgb(118, 187, 90);
+  font-family: 'Mitr', sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
